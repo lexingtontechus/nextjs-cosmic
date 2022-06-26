@@ -110,6 +110,8 @@ export default function Footer() {
               <a
                 href="https://lexingtontech.us"
                 className="text-slate-500 hover:text-slate-300"
+                target="_blank"
+                rel="noreferrer"
               >
                 Lexington Tech LLC
               </a>
