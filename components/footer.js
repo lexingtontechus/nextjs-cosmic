@@ -5,10 +5,10 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-violet-300 border-t border-accent-2">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-4">
         <div className="flex flex-wrap text-center justify-center lg:text-left">
           <div className="w-half lg:w-6/12 px-4">
-            <h4 className="text-3xl font-semibold text-slate-700">
+            <h4 className="text-3xl font-semibold text-slate-700 uppercase">
               <a
                 href="https://www.lexingtontech.us/"
                 target="_blank"
@@ -109,7 +109,7 @@ export default function Footer() {
               Copyright © {new Date().getFullYear()}{" "}
               <a
                 href="https://lexingtontech.us"
-                className="text-slate-500 hover:text-slate-300"
+                className="text-slate-500 hover:text-slate-300 uppercase"
                 target="_blank"
                 rel="noreferrer"
               >
